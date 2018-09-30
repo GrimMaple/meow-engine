@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{95aa9ab7-c699-4b64-8fe8-727c745484a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\windows">
+      <UniqueIdentifier>{a455053c-1f8c-411e-9f72-5c34a521ea4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{d3e7e627-e055-4b55-bdcf-4b65da0568f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mio">
+      <UniqueIdentifier>{95f17a72-1ac1-47c5-a754-a86dd45fec60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mio\windows">
+      <UniqueIdentifier>{07c12b05-06d8-4991-ab66-a30a7e4e2323}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\api.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\events.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\extensions.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\time.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vsync.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window_shared.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\windows\windows.h">
+      <Filter>src\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\windows\windows_audio.h">
+      <Filter>src\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\image.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\list.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mio\joystick.h">
+      <Filter>src\mio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mio\windows\xinput.h">
+      <Filter>src\mio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\tga.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\audio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\extensions.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window_shared.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windows\windows.c">
+      <Filter>src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windows\windows_audio.c">
+      <Filter>src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windows\time.c">
+      <Filter>src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windows\vsync.c">
+      <Filter>src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\list.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\image.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mio\windows\xinput.c">
+      <Filter>src\mio\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\tga.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Makefile">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
